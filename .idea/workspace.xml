@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9b4418f-a4be-4562-be6d-39992f5b3771" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularGetApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularGetApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularPostApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularPostApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularRequestChainApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularRequestChainApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_3/AbstractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_3/AbstractTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularGetApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularGetApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularPostApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularPostApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularRequestChainApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularRequestChainApiTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M7pi7WjQ7eTIzTHV9sLPoVpZuN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/AHTOH/OneDrive/Рабочий стол/Учеба/Тестирование backend на Java/backend-master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.SpoonacularRequestChainApiTest">
+    <configuration name="SpoonacularGetApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject_Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularGetApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularPostApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject_Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularPostApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularPostApiTest.postClassifyCuisineItalianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject_Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularPostApiTest" />
+      <option name="METHOD_NAME" value="postClassifyCuisineItalianTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularPostApiTest.postClassifyCuisineMediterraneanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject_Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularPostApiTest" />
+      <option name="METHOD_NAME" value="postClassifyCuisineMediterraneanTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularRequestChainApiTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="MyProject_Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularRequestChainApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpoonacularGetApiTest" />
+        <item itemvalue="JUnit.SpoonacularPostApiTest" />
+        <item itemvalue="JUnit.SpoonacularPostApiTest.postClassifyCuisineItalianTest" />
+        <item itemvalue="JUnit.SpoonacularPostApiTest.postClassifyCuisineMediterraneanTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9b4418f-a4be-4562-be6d-39992f5b3771" name="Changes" comment="" />
+      <created>1677128600828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677128600828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
