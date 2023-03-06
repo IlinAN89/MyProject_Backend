@@ -5,7 +5,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import service.Endpoints;
+import homework_3.service.Endpoints;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasKey;

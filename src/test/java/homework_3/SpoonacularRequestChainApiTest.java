@@ -1,7 +1,7 @@
 package homework_3;
 
 import org.junit.jupiter.api.Test;
-import service.Endpoints;
+import homework_3.service.Endpoints;
 
 import java.io.File;
 

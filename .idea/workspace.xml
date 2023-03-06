@@ -6,10 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="f9b4418f-a4be-4562-be6d-39992f5b3771" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/AddMealRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_3/dto/request/AddMealRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_3/dto/request/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_3/dto/request/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/response/AddMealResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_3/dto/response/AddMealResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_3/service/Endpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularGetApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularGetApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularPostApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularPostApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularRequestChainApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/SpoonacularRequestChainApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_5/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_5/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_5/GetCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_5/GetCategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_5/ProductsApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_5/ProductsApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/addMealReq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/request/AddMealRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/request/Ingredient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/request/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/response/AddMealResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/Endpoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularRequestChainApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_3/SpoonacularRequestChainApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_5/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_5/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_5/GetCategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_5/GetCategoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homework_5/ProductsApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework_5/ProductsApiTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +63,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/AHTOH/OneDrive/Рабочий стол/Учеба/Тестирование backend на Java/backend-master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AHTOH\OneDrive\Рабочий стол\Учеба\Тестирование backend на Java\Практические задания\MyProject_Backend\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.ProductsApiTest">
-    <configuration name="GetProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject_Backend" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +81,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="homework_5" />
-      <option name="MAIN_CLASS_NAME" value="homework_5.GetProductsTest" />
+      <option name="MAIN_CLASS_NAME" value="homework_5.GetCategoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetProductsTest.getProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject_Backend" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +96,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="homework_5" />
-      <option name="MAIN_CLASS_NAME" value="homework_5.GetProductsTest" />
-      <option name="METHOD_NAME" value="getProductsTest" />
+      <option name="MAIN_CLASS_NAME" value="homework_5.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsApiTest.modifyProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsApiTest.getProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject_Backend" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="homework_5" />
       <option name="MAIN_CLASS_NAME" value="homework_5.ProductsApiTest" />
-      <option name="METHOD_NAME" value="modifyProductTest" />
+      <option name="METHOD_NAME" value="getProductsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProductsApiTest" />
-        <item itemvalue="JUnit.GetProductsTest" />
-        <item itemvalue="JUnit.GetProductsTest.getProductsTest" />
-        <item itemvalue="JUnit.ProductsApiTest.modifyProductTest" />
+        <item itemvalue="JUnit.GetCategoryTest" />
         <item itemvalue="JUnit.ProductsApiTest.createProductTest" />
+        <item itemvalue="JUnit.ProductsApiTest.getProductsTest" />
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
       </list>
     </recent_temporary>
   </component>
