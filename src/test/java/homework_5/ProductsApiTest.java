@@ -14,14 +14,13 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class ProductsApiTest extends BaseTest {
 
-    
-
     @SneakyThrows
     @Test
     void getProductsTest() {
         Response<ResponseBody> response = productService.getProducts().execute();
         assertThat(response.isSuccessful(), CoreMatchers.is(true));
         assertThat(response.code(), equalTo(200));
+        assertThat(productsMapper.selectByExample(new db.model.ProductsExample()).size(), equalTo(5));
     }
 
     @SneakyThrows
@@ -33,6 +32,7 @@ public class ProductsApiTest extends BaseTest {
         assertThat(response.code(), equalTo(201));
         assertThat(response.body().getId(), equalTo(id));
         assertThat(response.body().getCategoryTitle(), equalTo(FOOD.title));
+        assertThat(productsMapper.selectByExample(new db.model.ProductsExample()).size(), equalTo(5));
     }
 
     @SneakyThrows
@@ -56,6 +56,7 @@ public class ProductsApiTest extends BaseTest {
         Response<ResponseBody> deleteResponse = productService.deleteProduct(newId).execute();
         assertThat(deleteResponse.isSuccessful(), CoreMatchers.is(true));
         assertThat(deleteResponse.code(), equalTo(200));
+        assertThat(productsMapper.selectByExample(new db.model.ProductsExample()).size(), equalTo(5));
     }
 
     @SneakyThrows
@@ -66,14 +67,18 @@ public class ProductsApiTest extends BaseTest {
         assertThat(response.code(), equalTo(200));
         assertThat(response.body().getId(), equalTo(id));
         assertThat(response.body().getCategoryTitle(), equalTo(FOOD.title));
+        assertThat(productsMapper.selectByExample(new db.model.ProductsExample()).size(), equalTo(5));
     }
 
     @SneakyThrows
     @AfterAll
+
+    @Test
     static void tearDown() {
         Response<ResponseBody> response = productService.deleteProduct(id).execute();
         assertThat(response.isSuccessful(), CoreMatchers.is(true));
         assertThat(response.code(), equalTo(200));
+        assertThat(productsMapper.selectByExample(new db.model.ProductsExample()).size(), equalTo(5));
     }
 }
 
