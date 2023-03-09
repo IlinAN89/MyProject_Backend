@@ -37,7 +37,7 @@ public class SpoonacularPostApiTest extends AbstractTest {
                 .post(getBaseUrl() + Endpoints.postClassifyCuisine)
                 .then()
                 .spec(getResponseSpecification())
-                .body("cuisine", is("Italian"));
+                .body("cuisine", is("Mediterranean"));
     }
 
     @Test
