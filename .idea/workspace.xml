@@ -48,7 +48,7 @@
       <recent name="C:\Users\AHTOH\OneDrive\Рабочий стол\Учеба\Тестирование backend на Java\Практические задания\MyProject_Backend\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductsApiTest">
+  <component name="RunManager" selected="JUnit.SpoonacularRequestChainApiTest">
     <configuration name="GetCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject_Backend" />
       <extension name="coverage">
@@ -60,22 +60,6 @@
       <option name="PACKAGE_NAME" value="homework_5" />
       <option name="MAIN_CLASS_NAME" value="homework_5.GetCategoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyProject_Backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework_5" />
-      <option name="MAIN_CLASS_NAME" value="homework_5.GetCategoryTest" />
-      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,33 +79,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsApiTest.createProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpoonacularGetApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject_Backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_5.*" />
+          <option name="PATTERN" value="homework_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework_5" />
-      <option name="MAIN_CLASS_NAME" value="homework_5.ProductsApiTest" />
-      <option name="METHOD_NAME" value="createProductTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularGetApiTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsApiTest.getProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpoonacularPostApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject_Backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_5.*" />
+          <option name="PATTERN" value="homework_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework_5" />
-      <option name="MAIN_CLASS_NAME" value="homework_5.ProductsApiTest" />
-      <option name="METHOD_NAME" value="getProductsTest" />
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularPostApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularPostApiTest.postClassifyCuisineItalianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject_Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.SpoonacularPostApiTest" />
+      <option name="METHOD_NAME" value="postClassifyCuisineItalianTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpoonacularPostApiTest" />
+        <item itemvalue="JUnit.SpoonacularPostApiTest.postClassifyCuisineItalianTest" />
+        <item itemvalue="JUnit.SpoonacularGetApiTest" />
         <item itemvalue="JUnit.ProductsApiTest" />
         <item itemvalue="JUnit.GetCategoryTest" />
-        <item itemvalue="JUnit.ProductsApiTest.createProductTest" />
-        <item itemvalue="JUnit.ProductsApiTest.getProductsTest" />
-        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
       </list>
     </recent_temporary>
   </component>
